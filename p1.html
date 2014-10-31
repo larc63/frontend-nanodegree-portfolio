@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <title>Luis Rodriguez - Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/logo.png" alt="logo" class="title-logo">
+            </div>
+            <div class="col-md-6 text-right">
+                <h1 class="title-super text-thin">Luis Rodriguez</h1>
+                <h4>Midnight Cookery &amp; Photography</h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 ">
+                <a href="http://www.lavacahacemu.com"><img src="images/main.png" alt="Project 1" class="img-responsive">
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-muted">
+                <h2>Featured Dishes</h2>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="images/tacos.jpg" alt="Tacos" class="img-responsive center-block" data-toggle="modal" data-target="#modalTacos">
+                <h3 class="text-uppercase">Tacos</h3>
+                <p><a href="http://www.lavacahacemu.com/search/label/tacos">http://www.lavacahacemu.com/search/label/tacos</a>
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="images/loin.jpg" alt="Pork Loin" class="img-responsive center-block" data-toggle="modal" data-target="#modalLoin">
+                <h3 class="text-uppercase">Pork Loin</h3>
+                <p><a href="http://www.lavacahacemu.com/search/label/pork">http://www.lavacahacemu.com/search/label/pork</a>
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="images/meat.jpg" alt="Beef" class="img-responsive center-block" data-toggle="modal" data-target="#modalBeef">
+                <h3 class="text-uppercase">Beef</h3>
+                <p><a href="http://www.lavacahacemu.com/search/label/beef">http://www.lavacahacemu.com/search/label/beef</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div class="modal fade" id="modalTacos" tabindex="-1" role="dialog" aria-labelledby="tacosModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="tacosModalLabel">Tacos</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive center-block" src="images/tacosx2.jpg" alt="large taco image"> A few examples of the tacos we've featured on our blog, ranging from homemade to taco-cart and restaurant. Pictured are some lobster and shrimp tacos from <a href="http://www.lavacahacemu.com/2014/02/la-avioneta-restaurants.html">La Avioneta</a> in Ensenada, Mexico.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalLoin" tabindex="-1" role="dialog" aria-labelledby="loinModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="loinModalLabel">Loin</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive center-block" src="images/loinx2.jpg" alt="large loin image"> No strangers to all things oink, we've pictured here a pork loin in cranberry sauce.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalBeef" tabindex="-1" role="dialog" aria-labelledby="beefModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="beefModalLabel">Beef</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive center-block" src="images/meatx2.jpg" alt="large beef image"> When in Rome, do as the romans, they say.. so, moo is also on the menu! Pictured here are some filets resting and coming up to temperature before meeting the pan for some steak au poivre.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modals -->
+</body>
+
+</html>
