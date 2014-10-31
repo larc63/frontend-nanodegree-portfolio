@@ -1,34 +1,40 @@
-body {
-  font-family: 'Nunito', sans-serif;
-  color: #747704;
-  font-weight: 400;
+body
+{
+    font-family: 'Nunito', sans-serif;
+    color: #747704;
+    font-weight: 400;
 }
 
-a{
-  word-wrap: break-word;
+a
+{
+    word-wrap: break-word;
 }
 
-.text-muted {
-  color: #747474;
+.text-muted
+{
+    color: #747474;
 }
 
-.text-thin {
-  font-weight: 300;
+.text-thin
+{
+    font-weight: 300;
 }
 
-.title-super{
-  font-size: 60px;
+.title-super
+{
+    font-size: 60px;
 }
 
-.title-logo{
-  margin-top: 20px;
+.title-logo
+{
+    margin-top: 20px;
 }
-
 
 /* Landscape phones and down */
-@media (max-width: 480px) {
-  .title-super{
-    font-size: 35px;
-  }
-
- }
+@media screen and (max-width: 600px)
+{
+    .title-super
+    {
+        font-size: 35px;
+    };
+}
